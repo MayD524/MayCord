@@ -1,0 +1,232 @@
+<!--
+    Author:     May Draskovics
+    Date  :     2022-02-03
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="May Draskovics">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A basic semi-anonymous chat service">
+        <title>May-Cord %CURRENT_USER%</title>
+
+        <!-- General outside css stuff -->
+        <line rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu"></line>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script src="../dist/main.js" type="text/javascript"></script>
+        <!-- Local CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <!--
+        <body>
+    -->
+    <body class="darkMode">
+        <!-- Center the page -->
+        <div class="container">
+            <!-- Navigation Bar -->
+            <!-- TODO: Remove/Add darkMode depending on preference-->
+            <nav class="navbar navbar-default mbar darkMode">
+                <div class="container fluid darkMode">
+                    <a class="navbar-brand" onclick="setCurrentPage(0);">Home</a>
+                    <a class="navbar-brand" onclick="setCurrentPage(1);">About</a>
+                    <a class="navbar-brand" onclick="setCurrentPage(2);">Blog</a>
+                    
+                    <!-- Pad the right -->
+                    <span class="navbar-right"></span>
+                
+                    <!-- Profile picture -->
+                    <img src="images/profile.jpg" alt="Profile Picture" class="img-circle navbar-right" width="50" height="50">
+                    
+                    <!-- Right Align -->
+                    <a class="navbar-brand navbar-right" id="username-nav" onclick="setCurrentPage(3);">%CURRENT_USER%</a>
+                    <a class="navbar-brand navbar-right" onclick="joinRoom()">Join Room</a>
+                    <a class="navbar-brand navbar-right" onclick="createRoom()">Make Room</a>
+                </div>
+            </nav>
+
+            <div id="general-popup" class="popup" style="display: none;"></div>
+            <div id="content">
+                <!-- Set the data here based on JS -->
+                <div id="home-data" style="display: block;">
+                    <h1 id="chat-welcome">Welcome to the chat room %CURRENT_USER%!</h1>
+                    <div class="d-flex row"></div>
+                        <div id="chat-content" class="col-md-6">
+                            <div id="chat-body"></div>
+                            <!-- TODOOO: Rework user input-->
+                        </div>
+                        <div id="room-details" class="col-md-6">
+                            <div id="roomsList">
+                                <h3>Rooms</h3>
+                                <div id="room-list">
+                                    <div class="room-list-item" id="room-list-item0">
+                                        <span class="room-list-item-name">%ROOM_NAME%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="usersList">
+                            <h3>Users</h3>
+                                <div id="user-list"></div>
+                            </div>  
+                        </div>
+                        <div id="chat-input-reworked">
+                            <!-- Text input for message (1024 char max)-->
+                            <textarea   id="chat-input-text-reworked" 
+                                        name="input-text" 
+                                        class="chat-txt darkMode" 
+                                        rows="1"
+                                        cols="20"
+                                        maxlength="1024"
+                                        placeholder="Type your message here..."></textarea>
+                            <!-- Submit button -->
+                            <button id="chat-input-submit-reworked" name="input-submit" class="btn darkMode" style="font-size:40px;" onclick="sendImage()">&#128247;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="about-data" style="display: none;">
+                    <h1>About</h1>
+                    <p>
+                        Hi! I'm May :)<br>
+                        I am a highschool junior (They/Them)<br>
+                        - I work in Python, C++, JavaScript, Java, html/css, bash, and C# <br>
+                        - I work primariy on the backend, and in the terminal but I can also work as a full stack dev<br> 
+                    </p>
+                    <p>
+                        If you are interested in supporting me: <br>
+                        <a href="https://www.buymeacoffee.com/mayd524" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+                    </p>
+                    <a href="https://wakatime.com/@a9ee50af-034e-4d54-beff-351c7a3ae5b0"><img src="https://wakatime.com/badge/user/a9ee50af-034e-4d54-beff-351c7a3ae5b0.svg" alt="Total time coded since Nov 30 2021" /></a>
+                    <div class="" style="margin-top: 20px;">
+                        <h3>Language Experience</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Language</th>
+                                    <th>Level</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>Expert</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript\TypeScript</td>
+                                    <td>Expert</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML/CSS</td>
+                                    <td>Expert</td>
+                                </tr>
+                                <tr>
+                                    <td>C++</td>
+                                    <td>Advanced</td>
+                                </tr>
+                                <tr>
+                                    <td>Bash</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>C#</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>Java</td>
+                                    <td>Beginner</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    <h3 style="margin-top: 20px;">Contact Me!</h3>
+                    <table id="contact-table" class="table table-responsive" style="margin-top: 20px;">
+                        <tr>
+                            <td>name</td>
+                            <td>%NAME%</td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td>%EMAIL%</td>
+                        </tr>
+                    </table>
+                </div> 
+            </div>
+            <div id="blog-data" style="display: none;">
+                <h1>Blog</h1>
+                <div name="blog-posts" id="blog-posts">
+                    <div class="blog-post" id="blog-post0">
+                        <h2>Rooms exist!!!</h2>
+                        <p>I got rooms working and time to make it look fancy, just... you can't join them *yet*</p>
+                    </div>
+                </div>
+            </div>
+            <div id="user-settings" style="display: none;">
+                <h1>User Settings!</h1>
+                <!-- A check button for settings display username -->
+                <div class="checkbox darkMode">
+                    <label>
+                        <!-- set the default value to whatever the value is -->
+                        <input type="checkbox" id="checkbox-username" value="%DISPLAY_USERNAME%" onclick="cUserSettings.invertUseName()">
+                        Display Username
+                    </label>
+                    <label class="darkMode">
+                        <label>Username: </label>
+                        <input type="text" id="username-input" class="darkMode" value="%CURRENT_USER%" placeholder="%CURRENT_USER%">
+                        <button type="button" class="darkMode" onclick="cUserSettings.setUsername()">Set Username</button>
+                    </label>
+                </div>     
+                <div class="darkMode">
+                    <!-- user actions -->
+                    <label>
+                        <button class="btn btn-danger" onclick="userLogout();">Logout</button>
+                        <button class="btn btn-danger" onclick="userDelete();">Delete Account</button>
+                    </label>
+                </div>
+                <div id="user-information">
+                    <table class="table darkMode">
+                        <thead> 
+                            <tr>
+                                <th>Name</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Username</td>
+                                <td id="username-settings">%CURRENT_USER%</td>
+                            </tr>
+                            <tr>
+                                <td>User UUID</td>
+                                <td>%USER_UUID%</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>%USER_EMAIL%</td>
+                            </tr>
+                            <tr>
+                                <td>Display Username</td>
+                                <td>%DISPLAY_USERNAME%</td>
+                            </tr>
+                            <tr>
+                                <td>Last Login</td>
+                                <td>%LAST_LOGIN%</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        getUsersRooms();
+        getMessages();
+        bindChatScrolling();
+    </script>
+</html>

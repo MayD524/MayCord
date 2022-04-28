@@ -1,0 +1,27 @@
+GET:
+    /dist/         -> JavaScript
+    /css/          -> CSS stuff
+    /images/       -> Get images
+    /contact       -> Get contact info (does nothing)
+    /favicon.ico   -> Sends favicon.ico file to web server
+    /lts_msgs?     -> get x messages in server (/lts_msgs?<server name>&count)
+    /users?        -> gets users in a given room (/users?<server name>)
+    /userRooms     -> Gets a list of all rooms that the user is info
+
+POST:
+    /create        -> Creates a new room            (owner=user&name=chatName)
+    /join          -> Joins a room                  (roomID=chatName)
+    /chat          -> Puts a new chat in the server (message=chatMessage)
+    new-user       -> creates a new user            (new-user:username=newUser&password=newPassword&email=newEmail)
+    login          -> sends a login request         (login:username=user&password=userpwd)
+    new-chat       -> sends a new chat              (new-chat:message=chatMessage) [OLD]
+
+PUT:
+    /set-usernames -> Set usernames
+    /set-status    -> Sets status
+    /set-useName   -> Inverts users show username
+    /reportMsg     -> Report a message
+    /edit-chat     -> edit a message
+
+DELETE:
+    /delete?       -> delete a message or user      (/delete?<msg|user>&<uuid>)

@@ -1,0 +1,252 @@
+
+/* set cursor to click on hover over <a> */
+a:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+
+#chat-body {
+    overflow:auto;
+    width: 100%;
+    margin-left: -5;
+}
+
+#chat-body {
+    max-height: 750px;
+    min-height: 500px;
+}
+
+#usersList {
+    /* place right of roomsList */
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.darkMode {
+    /* This background should be more important than others */
+    background-color: #2f2f2f !important;
+    color: #fff !important;
+}
+
+.mod-popup {
+    width: 1000px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: -25px 0 0 -25px;
+}
+
+#user-list {
+    /* make it scrollable */
+    overflow-y: scroll;
+    max-height: 150px;
+    font-size: 15px;
+}
+
+#room-list {
+    /* set max size  */
+    max-height: 250px;
+
+    /* make it scrollable */
+    overflow-y: scroll;
+}
+
+.popup {
+
+    /* put it on top layer */
+    z-index: 99999;
+
+    /* Set the size of the popup */
+    width: 300px;
+    height: 230px;
+
+    background-color: #2f2f2f !important;
+    color: #fff !important;
+
+    /* Set the border of the popup */
+    border: 1px solid #ccc;
+
+    /* Set the color of the text */
+
+    /* Set the color of the text when the user hovers over it */
+    text-decoration: none;
+
+    /* Set the padding of the text */
+    padding: 10px;
+
+    /* Set the position of the popup */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+
+    /* Set the font of the text */
+    font-size: 16px;
+    font-family: Arial;
+
+    /* Set the border radius */
+    border-radius: 10px; 
+
+    /* Set the transparency of the popup */
+    opacity: 0.9;
+}
+
+.chat-msg-user {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.chat-msg-mention {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d4df43 !important;
+    color: black;
+}
+
+.chat-msg {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    /* give chats a background */
+    background-color: inherit;
+
+    /* set the border of the chat */
+    border: 1px solid #ccc;
+    
+    /* dynamically set the height of the chat to the size of the chat messages */
+    height: auto;
+    overflow: auto;
+
+    /* set the padding of the chat */
+    padding: 5px;
+
+    /* Round the borders */
+    border-radius: 10px;
+
+    /* add a margin to the chat */
+    margin: 5px;
+}
+
+.chat-msg-time {
+    /* set the font of the time */
+    font-size: 12px;
+    font-family: Arial;
+
+    color: grey;
+}
+
+.room-list-item-button {
+    /* set the font of the time */
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+
+    /* set the size of button to a constant size */
+    width: 100px;
+    height: 45px;
+
+    overflow: hidden;
+
+    /* padding of the button */
+    padding: 5px;
+
+    /* set the border of the button */
+    border: 1px solid #ccc;
+
+    /* set the border radius */
+    border-radius: 10px;
+
+    /* make the button transparent */
+    opacity: 0.9;
+
+    /* set the margin of the button */
+    margin: 2.5px;
+}
+
+textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    resize: none;
+
+    /* set the font of the textarea */
+    font-size: 16px;
+    font-family: Arial;
+
+    /* set the padding of the textarea */
+    padding: 5px;
+
+    /* set the border of the textarea */
+    border: 1px solid #ccc;
+
+    /* set the border radius */
+    border-radius: 10px;
+
+    /* set the transparency of the textarea */
+    opacity: 0.9;
+
+    /* set the margin of the textarea */
+    margin: 5px;
+
+    /* set the width of the textarea */
+    width: 50%;
+}
+
+#roomsList {
+    /* make a slight grey background */
+    width: 73%;
+}
+
+#chat-input-submit-reworked {
+    /* move the button up */
+    margin-top: -75px;
+
+    /* move left */
+    margin-left: -25px;
+
+    /* set the font of the button */
+    font-size: 16px;
+    font-family: Arial;
+
+    /* set the size of the button */
+    width: 100px;
+    height: 50px;
+
+    /* set the padding of the button */
+    padding: 5px;
+
+}
+
+.chat-msg-option-button {
+    float: right;
+    margin-right: 5px;
+    background-color: #2f2f2f !important;
+    color: #fff !important;
+    font-size: 10px;
+}
+
+#message-option-popup {
+    float: right;
+    margin-right: 5px;
+    background-color: #2f2f2f !important;
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.message-option-popup-item:hover {
+    color: white;
+}
+
+.chat-msg-image {
+    /* images should have a 150x150*/
+    width: 250px;
+    height: 250px;
+}
+
+.coffee-btn {
+    border-radius: 10px;
+}

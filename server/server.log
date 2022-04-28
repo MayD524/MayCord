@@ -1,0 +1,538 @@
+2022-03-02 08:36:52,254 - INFO - Starting server on localhost:8080
+2022-03-02 08:36:57,098 - INFO - GET request,
+Path: /lts_msgs?test&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=test; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'test', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:57,106 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=test; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'test', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,227 - INFO - GET request,
+Path: /,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:8080/
+Connection: keep-alive
+Cookie: settings=showUsername=true; currentRoom=test; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'test', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,388 - INFO - GET request,
+Path: /dist/main.js,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=test; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'test', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,397 - INFO - GET request,
+Path: /css/style.css,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=test; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: style
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'test', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,648 - INFO - GET request,
+Path: /users?general,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,673 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,710 - INFO - GET request,
+Path: /roomSettings?general,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,766 - INFO - GET request,
+Path: /images/profile.jpg,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:58,766 - INFO - GET request,
+Path: /userRooms,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Cache-Control: max-age=0
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:59,670 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:59,679 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:59,680 - INFO - GET request,
+Path: /userRooms,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:36:59,689 - INFO - GET request,
+Path: /users?general,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:00,665 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:00,673 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:01,672 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:01,680 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:02,684 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:02,684 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:02,839 - INFO - POST request,
+Path: /chat,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 26
+Origin: http://localhost:8080
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Data: message=hello&room=general
+2022-03-02 08:37:03,694 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:03,694 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:04,703 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:04,712 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:05,716 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:05,724 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:06,715 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:06,715 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:07,709 - INFO - GET request,
+Path: /lts_msgs?general&10,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:07,709 - INFO - GET request,
+Path: /deletedMessages,
+Headers: Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: settings=showUsername=true; currentRoom=general; userUUID=d2143d62-33be-43c3-a04d-4b511b7da2ec; username=may
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+
+Cookies: {'settings': 'showUsername', 'currentRoom': 'general', 'userUUID': 'd2143d62-33be-43c3-a04d-4b511b7da2ec', 'username': 'may'}
+2022-03-02 08:37:08,217 - INFO - Stopping server on localhost:8080

@@ -1,0 +1,92 @@
+(TODO)
+
+- local chat (https://app.ipgeolocation.io/)
+- custom chat emojis
+- voice service
+- videos
+- make terminal UI look better
+- voice chats & recordings
+- make it look pretty prt 3
+- channel personalization
+  - Channel picture
+- code blocks, markdown style
+- remember where you were last login
+- direct messages (private chats)
+- Bot API
+- packager (for deploying encode source in b64)
+- pinned messages
+- fix scaling issues
+- name similarity check
+- spam protection
+- voice memo
+- nsfw -> insta ban
+- ssl
+- base64 encoding messages & encryption
+
+(do when incredibly bored)
+
+- polls?
+
+(working on)
+
+- remember me [x] days
+- report & moderation
+  - mutes
+
+(testing)
+
+(bugs)
+
+- user renaming (sets database to null?)
+
+(done)
+
+- Email user for password reset
+- bans
+- username length & rules? (no spaces, no caps, no profanity, no links)
+- room based settings
+- profanity check
+- account deletion
+- logout
+- message options
+- Database encryption
+- issue with sending urls (https:// issue)
+- if +50 messages only gets latest 10 (partially fixed) (Not important now 2/20/22)
+- issue with creating rooms
+- scroll extended chat history
+- dark mode
+- message length caps (1028 chars)
+- scroll to bottom on new chat
+- update room list on load
+- user input (takes a second to load & doesn't clear input)
+  (currently updates on page load)
+- update chat after x seconds (1000 * something)
+ (so it happens less and uses less memory)
+- make room list look better
+- rework user input
+- links
+- chat rooms & joining chat rooms
+- Clear chat form when submited
+- user list
+- make rooms list scrollable
+- images
+- message deletion (and fix)
+- hyper links
+- kicking users
+- moderators/privileges (prt 1)
+- room deletion
+
+(on hold)
+
+- account personalization
+  - display name
+  - profile picture
+  - status?
+  - about
+  
+- settings (user and chat)
+  - set display name
+  - enable/disable display name
+  - dark mode
+  - message recv init recv (max 100)
+  - enable chat/local profanity check

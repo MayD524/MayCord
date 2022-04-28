@@ -1,0 +1,155 @@
+<!--
+    Author:     May Draskovics
+    Date  :     2022-02-03
+-->
+
+<!DOCTYPE html>
+<html lang="en" class="darkMode">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="May Draskovics">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A basic semi-anonymous chat service">
+        <title>May-Cord</title>
+
+        <!-- Bootstrap -->           
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="../dist/main.js" type="text/javascript"></script>
+        
+        <!-- Local CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="darkMode">
+        <!-- Center the page -->
+        <div class="container">
+            <!-- TODOOOOO: Add login/register popup -->
+            <div id="login-popup" class="popup center darkMode" style="display:none;">
+                <div class="title">Login</div>
+                <form id="login_form" method="post" name="loginForm">
+                    <input id="username" type="text" class="darkMode" name="login:username" placeholder="Username" required>
+                    <input id="password" type="password" class="darkMode" name="password" placeholder="Password" required>
+                    <input type="submit" class="darkMode" value="Login">
+                </form>
+                <button class="btn btn-primary close darkMode" onclick="hideLoginPopup()">Close</button>
+            </div>
+
+            <!-- Register popup -->
+            <div id="register-popup" class="popup center darkMode" style="display:none;">
+                <div class="title">Register</div>
+                <form id="register_form" method="post" name="registerFrom">
+                    <input id="rusername" type="text" class="form-control darkMode" name="new-user:username" placeholder="Enter username" maxlength="128" minlength="3"  required="required">
+                    <input id="rpassword" type="password" class="form-control darkMode" name="password" placeholder="Enter password" maxlength="128" minlength="8" required="required">
+                    <input id="remail" type="email" class="form-control darkMode" name="email" placeholder="Enter email" required="required">
+                    <input type="submit" value="Register" class="btn btn-primary darkMode">
+                </form> 
+                <!-- Close the popup -->
+                <button class="btn btn-primary close darkMode" onclick="hideRegisterPopup()">Close</button>
+            </div>
+            
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-default darkMode">
+                <div class="container fluid">
+                    <a class="navbar-brand" onclick="setCurrentPage(0);">Home</a>
+                    <a class="navbar-brand" onclick="setCurrentPage(1);">About</a>
+                    <a class="navbar-brand" onclick="setCurrentPage(2);">Blog</a>
+                    
+                    <!-- Pad the right -->
+                    <span class="navbar-right"></span>
+                
+                    <!-- Profile picture -->
+                    <img src="images/profile.jpg" alt="Profile Picture" class="img-circle navbar-right" width="50" height="50">
+                    
+                    <!-- Right Align -->
+                    <div id="pre-login">
+                        <a class="navbar-brand navbar-right" onclick="openLoginPopup()">Login</a>
+                        <a class="navbar-brand navbar-right" onclick="openRegisterPopup()">Register</a>
+                    </div>
+                    <div id="post-login" style="display:none;">
+                        <label class="navbar-right"><span id="username"></span></label>
+                        <a class="navbar-brand navbar-right" onclick="logout()">Logout</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="content darkMode">
+                <!-- Set the data here based on JS -->
+                <div id="home-data" class="darkMode" style="display: block;">
+                    <h1>Welcome to my website!</h1>
+                </div>
+
+                <div id="about-data" class="darkMode" style="display: none;">
+                    <h1>About</h1>
+                    <p>
+                        Im May :)<br>
+                        I am a highschool junior (They/Them)<br>
+                        - I work in Python, C++, JavaScript, Java, html/css, bash, and C# <br>
+                        - I work primariy on the backend, and in the terminal but I can also work as a full stack dev<br> 
+                    </p>
+                    <p>
+                        If you are interested in supporting me: <br>
+                        <a href="https://www.buymeacoffee.com/mayd524" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+                    </p>
+                    <a href="https://wakatime.com/@a9ee50af-034e-4d54-beff-351c7a3ae5b0"><img src="https://wakatime.com/badge/user/a9ee50af-034e-4d54-beff-351c7a3ae5b0.svg" alt="Total time coded since Nov 30 2021" /></a>
+                    <div class="" style="margin-top: 20px;">
+                        <h3>Language Experience</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Language</th>
+                                    <th>Level</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>Expert</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript\TypeScript</td>
+                                    <td>Expert</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML/CSS</td>
+                                    <td>Expert</td>
+                                </tr>
+                                <tr>
+                                    <td>C++</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>Bash</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>C#</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>Java</td>
+                                    <td>Beginner</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    <h3 style="margin-top: 20px;">Contact Me!</h3>
+                    <table id="contact-table" class="table table-responsive" style="margin-top: 20px;">
+                        <tr>
+                            <td>name</td>
+                            <td>%NAME%</td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td>%EMAIL%</td>
+                        </tr>
+                    </table>
+                </div> 
+            </div>
+            <div id="blog-data" style="display: none;">
+                <h1>Blog</h1>
+            </div>
+        </div>
+    </body>
+</html>
